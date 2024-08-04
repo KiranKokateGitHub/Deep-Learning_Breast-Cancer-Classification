@@ -14,6 +14,16 @@ The neural network model used in this project was built using TensorFlow and Ker
 * Output Layer:
 'Dense(2, activation='sigmoid')' - Fully connected layer with 2 neurons and sigmoid activation function.
 
+## Training the Model:
+
+The model was compiled and trained using the following setup:
+
+* Optimizer: 'adam'
+* Loss Function: 'sparse_categorical_crossentropy'
+* Metrics: 'accuracy'
+
+The model was trained for 10 epochs with a validation split of 0.1.
+
 
 ## Objective:
 
