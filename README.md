@@ -2,10 +2,18 @@
 ## Description:
 Breast cancer is the most common cancer amongst women in the world. It accounts for 25% of all cancer cases, and affected over 2.1 Million people in 2015 alone. It starts when cells in the breast begin to grow out of control. These cells usually form tumors that can be seen via X-ray or felt as lumps in the breast area.
 
-The key challenges against it’s detection is how to classify tumors into malignant (cancerous) or benign(non cancerous). We ask you to complete the analysis of classifying these tumors using machine learning and the Breast Cancer Wisconsin (Diagnostic) Dataset.
+The key challenges against it’s detection is how to classify tumors into malignant (cancerous) or benign(non cancerous). Classification model is developed using Neural Network and the Breast Cancer Wisconsin (Diagnostic) Dataset.
 
-## Acknowledgements:
-This dataset has been referred from Kaggle.
+## Model Architecture:
+The neural network model used in this project was built using TensorFlow and Keras. The architecture consists of the following layers:
+
+* Input Layer:
+'Flatten(input_shape=(30,))' - Flattens the input data of shape (30,) into a 1D array.
+* Hidden Layer:
+'Dense(20, activation='relu')' - Fully connected layer with 20 neurons and ReLU activation function.
+* Output Layer:
+'Dense(2, activation='sigmoid')' - Fully connected layer with 2 neurons and sigmoid activation function.
+
 
 ## Objective:
 
