@@ -4,7 +4,15 @@ Breast cancer is the most common cancer amongst women in the world. It accounts 
 
 The key challenges against it’s detection is how to classify tumors into malignant (cancerous) or benign(non cancerous). Classification model is developed using Neural Network and the Breast Cancer Wisconsin (Diagnostic) Dataset.
 
+## Objective:
+
+1. Understand the Dataset & cleanup.
+
+2. Build classification models to predict whether the cancer type is Malignant or Benign.
+
+
 ## Model Architecture:
+
 The neural network model used in this project was built using TensorFlow and Keras. The architecture consists of the following layers:
 
 * Input Layer:
@@ -24,11 +32,23 @@ The model was compiled and trained using the following setup:
 
 The model was trained for 10 epochs with a validation split of 0.1.
 
+## Results:
 
-## Objective:
+The model achieved an accuracy of 0.9649 on the test set. This demonstrates the effectiveness of using a neural network for binary classification tasks in medical datasets.
 
-1. Understand the Dataset & cleanup.
+## Prerequisites:
 
-2. Build classification models to predict whether the cancer type is Malignant or Benign.
+* Python 3.x
 
-3. Also fine-tune the hyperparameters & compare the evaluation metrics of various classification algorithms.
+* TensorFlow
+
+* Keras
+
+* scikit-learn
+
+## Acknowledgments:
+
+* The Kaggle community for providing the dataset.
+  
+* TensorFlow and Keras for the powerful deep learning libraries.
+
